@@ -4,7 +4,8 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
-#overlay {
+#overlay,
+.overlay-menu {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -13,7 +14,11 @@ body{
   min-height: 100vh;
   z-index: 3;
   background-color: rgba(0,0,0,0.7);
+  transition: background-color 1s ease-in;
   display: none;
+}
+.overlay-menu {
+  z-index: 1;
 }
 .overlay-cross {
   font-size: 50px;
@@ -44,7 +49,7 @@ body{
     height: 100%; /* 100% Full-height */
     width: 300px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 2; /* Stay on top */
     top: 0;
     will-change: auto;
     right: -300px;
