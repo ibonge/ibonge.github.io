@@ -3,7 +3,18 @@ body{
   width: 100%;
   font-family: 'Raleway', sans-serif;
 }
-
+.header-second {
+  max-height: 300px !important;
+  min-height: 250px !important;
+}
+.secondary-title {
+  font-size: 30px !important;
+}
+#body-content {
+  min-height: 100vh;
+  max-width: 80%;
+  margin: 50px auto;
+}
 #overlay,
 .overlay-menu {
   position: fixed;
