@@ -3,6 +3,14 @@ body{
   width: 100%;
   font-family: 'Raleway', sans-serif;
 }
+.footer-social-div a:hover,
+.social-div a:hover,
+.footer-social-div a:active,
+.social-div a:active,
+.footer-social-div a:link,
+.social-div a:link {
+  text-decoration: none;
+}
 .header-second {
   max-height: 300px !important;
   min-height: 250px !important;
