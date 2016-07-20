@@ -145,7 +145,6 @@ body{
   transition: 0.3s;
   cursor: pointer;
 }
-
 .navbar-brand-custom {
   height: auto;
   margin-top: 30px; }
@@ -417,8 +416,28 @@ hr {
 }
 .copyright-texttt a:hover {
   color: black;
-
 }
+
+/*
+
+Contactus.html
+ */
+#contact-area {
+  margin: 80px auto;
+}
+#contactname,
+#contactemail,
+#contactmessage,
+#contactsubmit {
+  outline: none;
+  border: 1px solid #949496;
+  box-shadow: none;
+  border-radius: 0;
+  background-color: white;
+  padding: 10px 5px;
+}
+
+
 @media screen and (max-width: 620px) {
   #app-container h2 {
     font-size: 20px;
@@ -674,11 +693,16 @@ hr {
   #about-ibonge h2 {
     margin: 60px 0 40px;
   }
-.about-logo {
-  margin: 0 auto;
-  width: 95%;
-}
-  
+  .about-logo {
+    margin: 0 auto;
+    width: 95%;
+  }
+  .about-us-text {
+    margin: 60px !important;
+  }
+  .about-us-p {
+    margin-right: 80px !important;
+  }
 }
 @media screen and (min-width: 1025px) {
   #lead {
@@ -710,6 +734,7 @@ hr {
   .btn-subscribe {
     width: 200px;
   }
+
 }
 @media print {
   * {
